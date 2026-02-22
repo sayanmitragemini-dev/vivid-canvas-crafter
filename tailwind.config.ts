@@ -47,6 +47,10 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        navy: "hsl(var(--navy))",
+        "hero-yellow": "hsl(var(--hero-yellow))",
+        "hero-orange": "hsl(var(--hero-orange))",
+        "hero-coral": "hsl(var(--hero-coral))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -57,6 +61,10 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      fontFamily: {
+        syne: ['Syne', 'sans-serif'],
+        grotesk: ['Space Grotesk', 'sans-serif'],
       },
       borderRadius: {
         lg: "var(--radius)",
